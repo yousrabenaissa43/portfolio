@@ -54,6 +54,43 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
+#projects {
+    display: flex;
+    flex-direction: row; /* Keeps the cards in a horizontal row */
+    align-items: center; /* Centers the cards vertically within the section */
+    justify-content: center; /* Centers the cards horizontally within the section */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally within the container */
+    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
+    gap: 20px; /* Adds space between the cards */
+    width: 100%;
+    max-width: 1000px; /* Limits the width for better alignment */
+}
+
+.project-card {
+    width: 300px; /* Fixed width to prevent the cards from stretching */
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
 
 .skills-container {
     display: flex;
