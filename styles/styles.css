@@ -1,10 +1,11 @@
 /* General styling */
-body {
+html, body {
+    overflow-y: auto; /* Active le scroll */
+    scroll-behavior: smooth;
     background-color: #121212;
     color: #ff69b4;
     font-family: Arial, sans-serif;
     text-align: center;
-    overflow: hidden; /* Prevent scrolling */
     position: relative;
 }
 
@@ -80,3 +81,151 @@ button {
     padding: 10px;
     cursor: pointer;
 }
+/* General Styles */
+body {
+    background-color: black;
+    color: pink;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Programming Languages in Circles */
+.languages {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #ff69b4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ff69b4;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff1493;
+    color: white;
+}
+.navbar ul li a i {
+    margin-right: 8px;
+}
+/* Conteneur des projets */
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Permet d'ajouter plusieurs cartes */
+    padding: 20px;
+}
+
+/* Style des cartes */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Bouton GitHub */
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #222;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.github-btn i {
+    font-size: 18px;
+}
+
+.github-btn:hover {
+    background: #444;
+}
+
+
