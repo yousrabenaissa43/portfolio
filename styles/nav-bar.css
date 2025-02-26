@@ -18,6 +18,12 @@ nav {
   width: 100%; /* Ensure it takes full width */
   max-width: 1200px; /* Optionally, limit max width for larger screens */
   margin: 0 auto; /* Center the navigation bar on the page */
+  overflow: visible;
+  position: fixed;  /* Keeps it always visible */
+  top: 0;
+  left: 50%;        /* Move to center */
+  transform: translateX(-50%);  /* Adjust back by 50% of width */
+  
 }
 
 /* Style for anchor links */
