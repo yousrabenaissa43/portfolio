@@ -1,6 +1,6 @@
 /* General styling */
 html, body {
-    overflow-y: auto; /* Active le scroll */
+    overflow-y: auto; 
     scroll-behavior: smooth;
     background-color: #121212;
     color: #ff69b4;
@@ -9,7 +9,7 @@ html, body {
     position: relative;
 }
 
-/* Starry background styling */
+
 #stars {
     position: absolute;
     top: 0;
@@ -17,7 +17,7 @@ html, body {
     width: 100%;
     height: 100%;
     background: transparent;
-    pointer-events: none; /* Disable interaction with the stars */
+    pointer-events: none; 
 }
 
 .star {
@@ -45,49 +45,7 @@ header {
     margin: 20px 0;
 }
 
-#projects ul {
-    list-style-type: none;
-}
 
-#projects a {
-    color: #ff69b4;
-    text-decoration: none;
-    font-weight: bold;
-}
-#projects {
-    display: flex;
-    flex-direction: row; /* Keeps the cards in a horizontal row */
-    align-items: center; /* Centers the cards vertically within the section */
-    justify-content: center; /* Centers the cards horizontally within the section */
-    text-align: center;
-    padding: 50px 0;
-}
-
-.projects-container {
-    display: flex;
-    justify-content: center; /* Centers the cards horizontally within the container */
-    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
-    gap: 20px; /* Adds space between the cards */
-    width: 100%;
-    max-width: 1000px; /* Limits the width for better alignment */
-}
-
-.project-card {
-    width: 300px; /* Fixed width to prevent the cards from stretching */
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
 
 
 
@@ -118,7 +76,6 @@ button {
     padding: 10px;
     cursor: pointer;
 }
-/* General Styles */
 body {
     background-color: black;
     color: pink;
@@ -126,7 +83,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Programming Languages in Circles */
 .languages {
     position: relative;
     width: 250px;
@@ -178,91 +134,6 @@ button {
 button:hover {
     background-color: #ff1493;
 }
-/* Navbar Styling */
-.navbar {
-    width: 100%;
-    background-color: black;
-    padding: 15px 0;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
 
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.navbar ul li {
-    display: inline;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #ff69b4;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.navbar ul li a:hover {
-    background-color: #ff1493;
-    color: white;
-}
-.navbar ul li a i {
-    margin-right: 8px;
-}
-/* Conteneur des projets */
-.projects-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap; /* Permet d'ajouter plusieurs cartes */
-    padding: 20px;
-}
-
-/* Style des cartes */
-.project-card {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    width: 250px;
-    transition: transform 0.3s ease-in-out;
-}
-
-/* Effet au survol */
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-/* Bouton GitHub */
-.github-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background: #222;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.github-btn i {
-    font-size: 18px;
-}
-
-.github-btn:hover {
-    background: #444;
-}
 
 

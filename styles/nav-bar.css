@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background: black;
+  /* Add some spacing for better visual clarity */
+  padding: 2rem 3.15rem;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+  justify-content: center; /* Ensure the items are centered horizontally */
+  align-items: center; /* Align the items vertically */
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Optionally, limit max width for larger screens */
+  margin: 0 auto; /* Center the navigation bar on the page */
+}
+
+/* Style for anchor links */
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 0.2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 30px;
+  position: relative;
+  --hover-bg: #5b37b720;
+  --hover-c: #5b37b7;
+}
+
+/* SVG icon styling */
+a svg {
+  margin-right: -2.5rem;
+  width: 28px;
+  height: 28px;
+  pointer-events: none;
+  transition: margin 0.2s ease-out;
+}
+
+/* Span element, initially hidden */
+a span {
+  opacity: 0;
+  visibility: hidden;
+  font-size: 0.9rem;
+  margin-left: 0.9rem;
+}
+
+/* Circle effect using a pseudo element */
+a:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transform: translate(0%, -50%) scale(0);
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+}
+
+/* When active, apply the hover styles */
+a.active {
+  background: var(--hover-bg);
+  color: var(--hover-c);
+}
+
+/* Active state for the pseudo circle element */
+a.active:before {
+  background: var(--hover-c);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0%, -50%) scale(2);
+}
+
+/* Active state for the SVG icon (no overlap with text) */
+a.active svg {
+  margin-right: 0;
+}
+
+/* Show the span element when active */
+a.active span {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s ease-out;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    justify-self: start;
+    border-radius: 0 30px 30px 0;
+    padding: 2rem 1.15rem 2rem 0.75rem;
+  }
+
+  /* Adjust margin and spacing for vertical links */
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  /* Remove the negative margin from the SVG on smaller screens */
+  nav svg {
+    margin: 0;
+  }
+}
