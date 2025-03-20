@@ -98,8 +98,8 @@
      
 </head>
 <body>
-    
-
+  <br>
+  <br>
     <div id="stars"></div> <!-- Starry background -->
     <header>
       <section id="home">
@@ -108,10 +108,11 @@
     </header>
     <br>
     <br>
+    <br>
     <section id="about">
       <div class="about-content container flex flex-row justify-center items-center gap-16">
           <div class="formation-details text-center text-gray-300">
-              <h2 class="text-2xl font-bold mb-4">FORMATIONS</h2>
+              <h2 class="text-2xl font-bold mb-4">EDUCATION</h2>
               <ul class="list-group list-group-flush bg-transparent">
                   <li class="list-group-item bg-transparent border-none text-lg flex items-center gap-2">
                       <i class="bi bi-mortarboard-fill text-pink-400"></i> 
@@ -286,9 +287,22 @@
     </section>
     <br>
     <br>
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
-    </section>
+    <section id="resume" class="text-white text-center py-10">
+      <h2 class="text-3xl font-bold mb-4">📄 Resume</h2>
+  
+      <!-- Resume Viewer -->
+      <div class="flex justify-center">
+          <iframe src="assets/resume.pdf" class="w-full max-w-4xl h-[500px] border border-gray-600 rounded-lg"></iframe>
+      </div>
+  
+      <!-- Download Button -->
+      <div class="mt-4 flex justify-center">
+          <a href="assets/resume.pdf" target="_blank" download 
+             class="bg-pink-500 text-white px-4 py-2 rounded-md font-medium shadow-md hover:bg-pink-600 transition duration-300">
+              📥 Download
+          </a>
+      </div>
+  </section>
+  
 </body>
 </html>
