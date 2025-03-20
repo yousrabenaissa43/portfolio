@@ -136,6 +136,11 @@ button {
 button:hover {
     background-color: #ff1493;
 }
+section {
+    padding-top: 100px; /* Adjust based on navbar height */
+   /* margin-top: -10px;  Moves section up slightly */
+}
+
 
 
 
