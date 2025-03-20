@@ -82,7 +82,7 @@ body {
     color: pink;
     text-align: center;
     font-family: Arial, sans-serif;
-    padding-top: 80px; /* Adjust based on navbar height */
+    padding-top: 100px; /* Adjust based on navbar height */
 }
 
 .languages {

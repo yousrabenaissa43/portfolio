@@ -1,0 +1,27 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the categories horizontally */
+    gap: 30px; /* Adds space between categories */
+}
+
+.skill-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text and skills */
+    gap: 10px; /* Adds space between the heading and skills */
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the skills within each category */
+    gap: 15px; /* Adds space between skill items */
+}
+
+.skill {
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
