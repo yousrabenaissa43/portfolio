@@ -4,40 +4,59 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 
 export function Projects() {
-  const projects = [
-    {
-      title: "E-Commerce Platform",
-      description:
-        "A full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "https://github.com/yourusername/ecommerce-platform",
-      liveUrl: "https://example.com",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "A collaborative task management tool with real-time updates, team boards, and deadline tracking.",
-      technologies: ["TypeScript", "React", "Firebase", "TailwindCSS"],
-      githubUrl: "https://github.com/yourusername/task-manager",
-      liveUrl: "https://example.com",
-    },
-    {
-      title: "AI Chatbot",
-      description:
-        "An intelligent chatbot using natural language processing to answer customer queries and provide support.",
-      technologies: ["Python", "Flask", "OpenAI API", "React"],
-      githubUrl: "https://github.com/yourusername/ai-chatbot",
-      liveUrl: "https://example.com",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "A responsive weather application that displays current weather, forecasts, and historical data with interactive charts.",
-      technologies: ["JavaScript", "React", "Chart.js", "Weather API"],
-      githubUrl: "https://github.com/yourusername/weather-dashboard",
-      liveUrl: "https://example.com",
-    },
-  ];
+   const projects = [
+     {
+    title: "Shopping Assistant (Private)",
+    description:
+      "An intelligent shopping assistant powered by LLMs, enabling natural-language product search and personalized recommendations.",
+    technologies: ["Quarkus", "LangChain4J", "Java", "E-Bay API","keycloak","LLM","ClaudAnthropic Claude","Docker","PostgreSQL"],
+    githubUrl: "",
+    liveUrl: "",
+  },
+  {
+  title: "After-Sales Service Management System",
+  description:
+    "A full-stack after-sales service platform for managing equipment, tickets, interventions, technicians, and client requests. Includes authentication and role-based access control using Keycloak.",
+  technologies: ["Quarkus", "Java", "React", "Keycloak", "Docker", "PostgreSQL"],
+  githubUrl: "https://github.com/yousrabenaissa43/SAV-project", 
+},
+
+  {
+    title: "Cinema Reservation System",
+    description:
+      "A full-stack cinema management system featuring movie scheduling, reservations, and admin capabilities.",
+    technologies: ["React", "JEE", "WildFly", "PostgreSQL"],
+    githubUrl: "https://github.com/yousrabenaissa43/CinemaReservations",
+    liveUrl: "",
+  },
+  {
+    
+    title: "Search Engine",
+    description:
+      "A Java-based search engine designed to retrieve relevant information efficiently based on user queries.",
+    technologies: ["Java"],
+    githubUrl: "https://github.com/yousrabenaissa43/miniprojetjava",
+    liveUrl: "",
+  },
+  {
+    title: "Library Management System",
+    description:
+      "A desktop-based library management application supporting book tracking, user management, and inventory handling.",
+    technologies: ["C#", "MySQL"],
+    githubUrl: "https://github.com/yousrabenaissa43/BooksForm",
+    liveUrl: "",
+  },
+ 
+  {
+  title: "Chat Server",
+  description:
+    "A C# client–server chat application using TCP sockets. Includes message encryption, a TCP server handling multiple clients, and a TCP client interface for real-time communication.",
+  technologies: ["C#", ".NET", "TCP Sockets" ],
+  githubUrl: "https://github.com/yousrabenaissa43/chatServer",
+  liveUrl: "",
+},
+];
+
 
   return (
     <section id="projects" className="py-20 px-4">
