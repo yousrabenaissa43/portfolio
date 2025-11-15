@@ -3,20 +3,30 @@ import { Card } from "./ui/card";
 
 export function Education() {
   const education = [
-    {
-      degree: "Bachelor of Science in Computer Science Engineering",
-      institution: "Your University Name",
-      location: "City, Country",
-      period: "2021 - 2025",
-      description:
-        "Focused on software engineering, algorithms, data structures, and full-stack development.",
-      achievements: [
-        "Dean's List - Multiple Semesters",
-        "GPA: 3.8/4.0",
-        "President of Computer Science Club",
-      ],
-    },
-  ];
+  {
+    degree: "Computer Science Engineering ",
+    institution: "National School of Engineers of Tunis (ENIT)",
+    location: "Tunis, Tunisia",
+    period: "2023 – Present",
+    description:
+      "Third-year engineering student specialized in computer science.",
+    achievements: [
+     
+    ],
+  },
+  {
+    degree: "Preparatory Classes for Engineering Studies (Math–Physics)",
+    institution: "IPEIT – Preparatory Institute for Engineering Studies of Tunis",
+    location: "Tunis, Tunisia",
+    period: "2021 – 2023",
+    description:
+      "Completed an intensive two-year program focused on advanced mathematics, physics, and engineering fundamentals.",
+    achievements: [
+     
+    ],
+  },
+];
+
 
   return (
     <section id="education" className="py-20 px-4">
@@ -62,7 +72,7 @@ export function Education() {
                   <p className="text-muted-foreground mb-4">{edu.description}</p>
 
                   <div className="space-y-2">
-                    <h4 className="font-semibold">Key Achievements:</h4>
+                    
                     <ul className="list-disc list-inside space-y-1 text-muted-foreground">
                       {edu.achievements.map((achievement, i) => (
                         <li key={i}>{achievement}</li>
