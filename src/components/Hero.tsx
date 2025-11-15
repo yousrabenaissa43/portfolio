@@ -23,7 +23,7 @@ export function Hero() {
             <h1 className="text-5xl md:text-7xl font-bold mb-4 relative">
               Hi, I'm{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Your Name
+                Yousra Ben Aissa
               </span>
             </h1>
           </div>
@@ -33,9 +33,8 @@ export function Hero() {
           </p>
 
           <p className="text-lg text-muted-foreground max-w-3xl">
-            Passionate about building innovative solutions and learning new
-            technologies. I specialize in full-stack development and love
-            turning ideas into reality through code.
+            Passionate about building innovative solutions, cybersecurity, 
+            and the integration of artificial intelligence into advanced technological solutions.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
@@ -63,7 +62,7 @@ export function Hero() {
 
           <div className="flex gap-4 pt-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/yousrabenaissa43"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-card"
@@ -71,7 +70,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/yousra-benaissa-984749293/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-card"
