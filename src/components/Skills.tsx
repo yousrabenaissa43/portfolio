@@ -4,15 +4,17 @@ import { Card } from "./ui/card";
 export function Skills() {
   const skillCategories = [
     {
-      category: "Languages",
+      category: "Programming Languages",
       skills: [
-        "Java",
-        "JavaScript",
-        "TypeScript",
-        "Python",
-        "SQL",
-        "HTML",
-        "CSS",
+     "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "C",
+      "C#",
+      "SQL",
+      "HTML",
+      "CSS",
       ],
     },
     {
@@ -27,6 +29,9 @@ export function Skills() {
         "Flask",
         "TailwindCSS",
         "Bootstrap",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain4j",
       ],
     },
     {
@@ -46,11 +51,11 @@ export function Skills() {
       skills: [
         "Data Structures",
         "Algorithms",
+        "RAG",  
         "OOP",
         "REST APIs",
         "Agile",
         "CI/CD",
-        "Testing",
         "Design Patterns",
       ],
     },
