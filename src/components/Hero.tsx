@@ -3,10 +3,10 @@ import { Button } from "./ui/button";
 
 export function Hero() {
   const handleDownloadCV = () => {
-    const cvUrl = "/cv.pdf";
+    const cvUrl = "src/assets/CV-Yousra-Ben-Aissa.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "CV.pdf";
+    link.download = "CV-Yousra-Ben-Aissa.pdf";
     link.click();
   };
 
