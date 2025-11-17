@@ -6,11 +6,10 @@ export function Skills() {
     {
       category: "Languages",
       skills: [
+        "Java",
         "JavaScript",
         "TypeScript",
         "Python",
-        "Java",
-        "C++",
         "SQL",
         "HTML",
         "CSS",
@@ -19,12 +18,13 @@ export function Skills() {
     {
       category: "Frameworks & Libraries",
       skills: [
+        "Spring Boot",
+        "Quarkus",
         "React",
+        "Angular",
         "Node.js",
         "Express",
-        "Django",
         "Flask",
-        "Spring Boot",
         "TailwindCSS",
         "Bootstrap",
       ],
@@ -38,8 +38,7 @@ export function Skills() {
         "MongoDB",
         "AWS",
         "Linux",
-        "VS Code",
-        "Postman",
+        "Swagger",
       ],
     },
     {
