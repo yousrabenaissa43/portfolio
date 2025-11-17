@@ -84,7 +84,7 @@ export function Hero() {
           <div className="mt-10 md:mt-0 flex justify-center md:justify-end w-full md:w-auto">
            <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full border-4 border-primary shadow-xl p-2">
               <img
-                src="/assets/images/yousra.jpg" 
+                src="/src/assets/images/yousra.jpg" 
                 alt="Yousra profile"
                 className="w-full h-full rounded-full object-cover"
               />
