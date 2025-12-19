@@ -5,6 +5,7 @@ import { Education } from "@/components/Education";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
+import { Certificates } from "@/components/Certificates";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
         <Education />
         <Skills />
         <Projects />
+        <Certificates />
         <Contact />
       </div>
     </ThemeProvider>
