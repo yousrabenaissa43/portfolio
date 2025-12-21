@@ -13,6 +13,7 @@ export function Certificates() {
     "Fundamentals of Deep Learning NVIDIA.pdf",
     "Introduction to Transformer-Based Natural Language Processing   NVIDIA.pdf",
     "Rapid Application Development with Large Language Models (LLMs) NVIDIA.pdf",
+    "Building LLM Applications With Prompt Engineering NVIDIA.pdf",
   ];
 
   return (
