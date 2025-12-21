@@ -13,6 +13,14 @@ export function Projects() {
     githubUrl: "",
     liveUrl: "https://drive.google.com/file/d/1W7foJ6-4_YSIza-KTQ2L640jPkJb5Zsj/view?usp=sharing",
   },
+  {
+    title: "Lambda Streaming Pipeline",
+    description:
+      "A Lambda Architecture demo where a Kafka producer simulates temperature & humidity sensor readings (randomly generated); data is processed via batch and streaming paths and results are exposed in a WebSocket-backed dashboard.",
+    technologies: ["Kafka", "HDFS", "Spark", "Cassandra", "Spring Boot", "Docker", "WebSocket", "IoT"],
+    githubUrl: "https://github.com/yousrabenaissa43/TP4-architecture-Lambda.git",
+    liveUrl: "https://drive.google.com/file/d/1fHMs7Nxb2VIVeIensfRobfdWenwJH2_9/view?usp=sharing",
+  },
 
   {
   title: "After-Sales Service Management System",
@@ -64,6 +72,7 @@ export function Projects() {
     githubUrl: "https://github.com/yousrabenaissa43/TaskManager-FlutterApp.git",
     liveUrl: "https://drive.google.com/file/d/1Ufjqep-jAP57D6TXrS-2lf-RTW6qVqOd/view?usp=sharing",
   },
+  
 ];
 
 
