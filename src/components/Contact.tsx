@@ -77,7 +77,7 @@ export function Contact() {
         </Card>
 
         <div className="mt-12 text-center text-muted-foreground">
-          <p>© 2025 Your Name. All rights reserved.</p>
+          <p>© 2025 Yousra Ben Aissa. All rights reserved.</p>
         </div>
       </div>
     </section>
